@@ -132,7 +132,7 @@ The option object is a simple object containing the application configuration th
     - `urlEncoded`: `true` (controls if BodyParser will accept URL Encoded payloads)
   - **Important**: Both `json` and `urlEncoded` properties can accept a `boolean` or their respective options following the BodyParser guide itself
 - `sentry`: Sentry configuration object
-  - `dsn` **(Required if using Sentry)**: Sentry API URL ([Official Sentry documentation](https://docs.sentry.io/platforms/node/express/))
+  - `dsn` **(Required if using Sentry)**: Sentry API URL ([Official Sentry documentation](https://docs.sentry.io/platforms/javascript/guides/express))
     - Type: *String*
     - Default: `process.env.SENTRY_DSN`
   - `requestHandler`: Options for the sentry request handler middleware
